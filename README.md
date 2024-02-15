@@ -1,7 +1,7 @@
 # Vector Databases for LangChain
 
 This is a functional project that aims to demonstrate what a vector database is and its usage to read and query a Medium article stored in a .txt file. The project splits the data from the txt file containing thousands of tokens into chunks. Then LangChain's embeddings are used to convert relevant information into approximately 19 vectors (can be understood as arrays) of numbers matching the textual content. Finally, using chaining a query is made to the declared LLM in order to fetch the correct answer contained within the .txt file which is then displayed as the output. 
-Pinecone's serverless vectorstore was used in this project and the vector similarity used was eucilidean in the database. 
+Pinecone's cloud-based serverless vectorstore was used in this project and the vector similarity used was eucilidean in the database. 
 
 ## Screenshots
 
