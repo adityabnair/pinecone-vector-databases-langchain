@@ -18,7 +18,7 @@ Pinecone's cloud-based serverless vectorstore was used in this project and the v
 
 ### Running
 
-1. Use pipenv to install python libraries from requirements.txt
+1. Use pipenv to install python libraries from requirements.txt (a virtual environemnt is always recommended)
 2. Add environment variable in a .env file to hold Pinecone's and OpenAI's API keys
 3. Run main.py
 4. Observe results and can re-reun using a different query pertaining to article
